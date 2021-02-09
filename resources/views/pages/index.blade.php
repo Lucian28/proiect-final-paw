@@ -1,11 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-
-<div class="jumbotron text-center">
-    <h1> Welcome to Laravel !  </h1>
-    <p> This is the laravel application from the "Laravel From Scrach" </p>
-<p><a class="btn btn-primary btn-lg" href="/login" role="button"> Login </a>
-   <a class="btn btn-success btn-lg" href="/register" role="button"> Register </a></p>
+<body style="background-color: rgb(43, 67, 119)">
+<div class="jumbotron text-center " style="border-radius: 2%; background-color: rgb(255, 255, 255)" >
+    <h1> Comunitate - IT  </h1>
+    <p> Proiect PAW </p>
+<p><a class="btn btn-primary btn-lg" href="/login" role="button"> Logare </a>
+   <a class="btn btn-success btn-lg" href="/register" role="button"> Inregistrare </a></p>
 </div>
+</body>
     @endsection
